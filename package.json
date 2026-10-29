@@ -1,0 +1,10 @@
+{
+  "name": "legal-matter-structured-logs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/legal_matter_job.ts",
+    "test": "node src/legal_matter_job.test.ts"
+  },
+  "dependencies": { "zod": "^3.23.8" }
+}
